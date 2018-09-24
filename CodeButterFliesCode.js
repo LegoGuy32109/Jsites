@@ -1,0 +1,20 @@
+
+document.querySelector("h1").textContent = "Monarch Butterfly Migration";
+document.querySelector("img").src = "Butterflys.jpg";
+var pa1 = document.querySelector("#p1");
+pa1.textContent = "Every fall Monarch butterflies migrate to warmer climates";
+var pa2 = document.querySelector("#p2");
+pa2.textContent = "In the honking spring time the butterflies return";
+var pa3 = document.querySelector("a");
+pa3.textContent = "Wikipedia page on Monarch Migration";
+var li1 = document.querySelector("#l1");
+li1.textContent = "Migration Facts";
+var li2 = document.querySelector("#l2");
+li2.textContent = "They cannot survive the cold temperatures in the north";
+var li3 = document.querySelector("#l3");
+li3.textContent = "They may fly 4000 miles or more to their winter homes";
+var li4 = document.querySelector("#l4");
+li4.textContent = "The butterflies making the journey south are the fourth generation after the ones that flew north the previous honking spring time";
+var li5 = document.querySelector("#l5");
+li5.textContent = "They migrate to the same location as their predecessors ... even to the same trees";
+document.querySelector("a").href = "https://en.wikipedia.org/wiki/Monarch_butterfly_migration/";
